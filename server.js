@@ -4,7 +4,7 @@
 var express = require('express');
 var app = express();
 
-var port = 1212;
+var port = process.env.port||1212;
 
 app.get('/',function (req,res) {
    res.send('<h1>www.github.com/AshishkrGoyal/</h1>');
