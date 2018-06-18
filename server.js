@@ -4,10 +4,10 @@
 var express = require('express');
 var app = express();
 
-var port = process.env.port||1212;
+var port = process.env.PORT || 1212;
 
 app.get('/',function (req,res) {
-   res.end('<h1>www.github.com/AshishkrGoyal/</h1>');
+   res.end('www.github.com/AshishkrGoyal/');
 });
 
 app.listen(port,function () {
