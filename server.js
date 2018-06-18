@@ -7,7 +7,7 @@ var app = express();
 var port = process.env.port||1212;
 
 app.get('/',function (req,res) {
-   res.send('<h1>www.github.com/AshishkrGoyal/</h1>');
+   res.end('<h1>www.github.com/AshishkrGoyal/</h1>');
 });
 
 app.listen(port,function () {
